@@ -54,6 +54,9 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.5.0")
     // Para la navegación
     implementation("androidx.navigation:navigation-compose:2.8.5")
+    // Media3 ExoPlayer para el vídeo
+    implementation("androidx.media3:media3-exoplayer:1.2.1")
+    implementation("androidx.media3:media3-ui:1.2.1")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
